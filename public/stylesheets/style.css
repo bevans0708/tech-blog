@@ -11,8 +11,9 @@ body, html {
 }
 
 a {
+   font-size: x-large;
    text-decoration: none;
-   color: #225ca3;
+   color: #0737d5;
    font-weight: bold;
    transition: color .1s;
 }
