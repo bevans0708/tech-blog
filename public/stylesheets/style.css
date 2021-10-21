@@ -7,13 +7,13 @@ body, html {
    padding: 0;
    margin: 0;
    font-family: sans-serif;
-   color: #333;
+   background-color: #7e7e7e;
 }
 
 a {
    font-size: x-large;
    text-decoration: none;
-   color: #0737d5;
+   color: #21cb75;
    font-weight: bold;
    transition: color .1s;
 }
@@ -45,7 +45,7 @@ button:hover {
 textarea, input {
    padding: .5%;
    border-radius: 5px;
-   border: 1px solid #ccc;
+   border: 1px solid #000;
 }
 
 textarea:focus, input:focus {
@@ -76,7 +76,7 @@ form label {
 }
 
 header {
-   border-bottom: 1px solid #ccc;
+   border-bottom: 1px solid #000;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -126,7 +126,7 @@ main {
 .post .title span {
    font-style: italic;
    font-size: 90%;
-   color: #7d7d7d;
+   color: #0737d5;
 }
 
 .edit-link {
@@ -171,7 +171,7 @@ main {
 }
 
 footer {
-   border-top: 1px solid #ccc;
+   border-top: 1px solid #000;
    display: flex;
    justify-content: center;
    padding: 1%;
